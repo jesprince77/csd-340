@@ -1,6 +1,10 @@
 #page-title {
     text-align: center;
+<<<<<<< HEAD
     font-family: 'Oswald', Verdana, Arial, sans-serif;
+=======
+    font-family: 'Oswald', Verdana, Geneva, Arial, sans-serif;
+>>>>>>> 8ccf69c01d3b34665abe31501ba221b08668c347
 }
 
 #movie-list {
