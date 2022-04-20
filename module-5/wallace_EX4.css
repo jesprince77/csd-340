@@ -19,6 +19,12 @@ img {
     height: 350px;
 }
 
+container {
+    text-align: center;
+}
+
+
+
 .gallery-title {
     text-align: center;
     font-family: 'Oswald', Verdana, Arial, sans-serif;
