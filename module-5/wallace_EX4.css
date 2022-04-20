@@ -7,6 +7,9 @@ html {
     display: grid;
     grid-template-columns: auto auto auto;
 }
+.grid-container {
+    display: grid;
+  }
 
 #page-title {
     text-align: center;
