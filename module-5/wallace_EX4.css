@@ -7,6 +7,9 @@ html {
     display: grid;
     grid-template-columns: auto auto auto;
 }
+.grid-container {
+    display: grid;
+  }
 
 #page-title {
     text-align: center;
@@ -18,6 +21,8 @@ img {
     width: 400px;
     height: 350px;
 }
+
+
 
 .gallery-title {
     text-align: center;
