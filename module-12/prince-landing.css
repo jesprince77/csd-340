@@ -14,11 +14,12 @@ header {
     height: 100vh;
     
 }
-h1, h2, {
+h1 h2{
     color: white;
 }
+
 h3{
-    color: black
+    color: black;
 }
 .card {
     /* Add shadows to create the "card" effect */
