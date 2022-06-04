@@ -127,7 +127,7 @@ input[type=text], select, textarea {
     padding: 20px;
   }
   footer p {
-    color: white;
+    color: rgba(89, 75, 243, 0.794);
     font-weight: 400;
     float: right;
     padding: 10px;
