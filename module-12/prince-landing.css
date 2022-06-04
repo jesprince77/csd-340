@@ -126,6 +126,13 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
+  footer {
+    background-color: rgba(89, 75, 243, 0.794);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
   footer p {
     color: rgba(89, 75, 243, 0.794);
     font-weight: 400;
