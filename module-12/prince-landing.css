@@ -116,23 +116,3 @@ input[type=text], select, textarea {
     padding: 5px;
     width: 80%;
   }
-  footer {
-    background-color: rgba(89, 75, 243, 0.794);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-  footer p {
-    color: rgba(89, 75, 243, 0.794);
-    font-weight: 400;
-    float: right;
-    padding: 10px;
-    font-style: italic;
-    font-size: .75em;
-}
-
-footer a {
-    text-decoration: none;
-    color: white;
-}
