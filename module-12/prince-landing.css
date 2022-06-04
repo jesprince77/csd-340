@@ -68,13 +68,13 @@ h3{
     clear: both;
   }
   
-  /* Responsive columns , Floar three columsn side by side */
+  /* Responsive columns , Floar three columns side by side */
   @media screen and (max-width: 600px) {
     .column {
       width: 25%;
       display: block;
-      margin-bottom: 10px;
-      padding: 0 10px;
+      margin-bottom: 5px;
+      padding: 0 5px;
       border-radius: 2%;
     }
   }
