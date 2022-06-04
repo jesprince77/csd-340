@@ -37,7 +37,7 @@ h3{
   
   /* Add some padding inside the card container */
   .container {
-    padding: 2px 16px;
+    padding: 2px 10px;
   }
   
   /* Add rounded corners to the top left and the top right corner of the image */
@@ -126,3 +126,16 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
   }
+  footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding: 10px;
+    font-style: italic;
+    font-size: .75em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
