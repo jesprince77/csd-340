@@ -124,7 +124,7 @@ input[type=text], select, textarea {
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 5px;
   }
   footer {
     background-color: rgba(89, 75, 243, 0.794);
