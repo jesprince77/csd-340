@@ -5,6 +5,7 @@ header {
     color: white;
   }
   body {
+    font-family: Arial, Helvetica, sans-serif;
     background-image: url(images/space-background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
@@ -15,7 +16,7 @@ header {
     
 }
 h4{
-    font-size: medium;
+    font-size: larger;
     color: white;
 }
 
@@ -27,6 +28,7 @@ h3{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     color: black;
+    border-radius: 5px 5px 0 0;
   }
   
   /* On mouse-over, add a deeper shadow */
@@ -39,31 +41,21 @@ h3{
     padding: 2px 16px;
   }
   
-  /* Add rounded corners to the top left and the top right corner of the image */
+  /* Add rounded corners to the top left and the top right, bottom left and bottom right corner of the image */
   img {
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 5px 5px;
   }
   * {
     box-sizing: border-box;
   }
   
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(images/space-background.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: white;
-    width: 100%;
-    height: 100vh;
-
-  }
   
   /* Float three columns side by side */
   .column {
     float: left;
     width: 25%;
     padding: 0 10px;
+    border-radius: 10%;
   }
   
   /* Remove extra left and right margins, due to padding */
@@ -76,12 +68,15 @@ h3{
     clear: both;
   }
   
-  /* Responsive columns */
+  /* Responsive columns , Floar three columns side by side */
   @media screen and (max-width: 600px) {
     .column {
-      width: 100%;
+      width: 25%;
+      height: 20%;
       display: block;
-      margin-bottom: 20px;
+      margin-bottom: 5px;
+      padding: 0 5px;
+      border-radius: 2px;
     }
   }
   
@@ -95,12 +90,12 @@ h3{
   /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
+    padding: 6px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
+    margin-top: 3px; /* Add a top margin */
+    margin-bottom: 8px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
   
@@ -123,5 +118,5 @@ input[type=text], select, textarea {
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 10px;
   }
